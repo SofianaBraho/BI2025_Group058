@@ -5,5 +5,5 @@ matplotlib
 seaborn
 plotly
 requests
-
+scipy
 starvers @ git+https://github.com/AllStarsAT/starvers.git
