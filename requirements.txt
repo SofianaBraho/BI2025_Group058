@@ -6,4 +6,5 @@ seaborn
 plotly
 requests
 scipy
+scikit-learn
 starvers @ git+https://github.com/AllStarsAT/starvers.git
