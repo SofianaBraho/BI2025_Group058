@@ -13,12 +13,20 @@ Assignment 3 (Data Analytics) of the BI2025 course at TU Wien.
   (Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, Deployment),
   including provenance logging.
 - `requirements.txt` – List of Python dependencies required to reproduce the experiments.
-- `data/` – Dataset files used in the analysis (original ARFF and processed CSV).
 - `LICENSE` – License information for the repository.
 
 ## Reproducibility
 To reproduce the experiments, install the required dependencies and run the notebook
 top to bottom:
 
+## Data
+The dataset used in this project originates from OpenML (US News Colleges dataset, ID 538).
+For submission and reproducibility, the processed CSV file is included in the ZIP submission
+under the `data/` directory. The GitHub repository intentionally contains only code and
+documentation.
+Link to the dataset: GR058 12502707 12502840 colleges_usnews https://www.openml.org/search?type=data&status=active&qualities.NumberOfInstances=between_1000_10000&qualities.NumberOfFeatures=between_10_100&qualities.NumberOfClasses=lte_1&sort=qualities.NumberOfInstances&order=asc&id=538
+
 ```bash
 pip install -r requirements.txt
+
+
